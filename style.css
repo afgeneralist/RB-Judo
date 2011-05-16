@@ -49,7 +49,9 @@ body {
 #topnav a {
 	color: #ffffff;
 	text-decoration: none;
-	background-color: #606060;
+	background-color: #222;
+	padding: 5px;
+	border: 1px solid #999;
 }
 
 #topnav ul li a:hover {
