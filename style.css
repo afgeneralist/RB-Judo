@@ -9,6 +9,7 @@ body {
 
 #container {
 		font-family: arial, sans-serif;
+		font-size: 14px;
 		margin: 1em auto;
 		width: 850px;
 		height: 600px;
@@ -66,18 +67,22 @@ body {
 		float: left;
 		width: 500px;
 		background: #303030;
-	    margin: 0 5em;
+	    margin: 0 0 0 5em;
 		height: 450px;
+		padding-left: 10px;
 
 }
+
+
 
 #contentright {
 	float: right;
 	background: #303030;
 	padding: .05em;
 	width: 150px;
-	margin: 0 1em;
+	margin: 0 3em 0 0;
 	height: 450px;
+	padding-left: 10px;
 	
 }
 
