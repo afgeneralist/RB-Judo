@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #D5E1DD;
+	border: 1px solid #D5E1DD;
 	
 }
 
@@ -12,31 +12,30 @@ body {
 		font-size: 14px;
 		margin: auto;
 		width: 850px;
-		height: 600px;
-		/*background-color: #606060;*/
-		background-color: #747E80;
+		height: 800px;
+		border: 1px solid #747E80;
 		
 }
 
 
 
 #header { 
-	text-align: center; 
+	text-align: left; 
 
 }
 
 h1 {
 	background-color: #F7F3E8;
-	margin: 0 350px;
+	margin: 10px 27px;
 }
 
 
 #topnav ul {
 	list-style-type: none;
-	margin-left: 63px;
+	margin-top: 100px;
+	margin-left: 225px;
 	padding: 0;
 	text-align: left;
-	/*background: #606060;*/
 }
 
 #topnav ul li {
@@ -49,56 +48,52 @@ h1 {
 	text-decoration: none;
 	padding: 0 .5em;
 	color: #fff;
-	/*background-color: #606060;*/
-	/*background-color: #747E80; 2nd most recent*/ 
-	/*background-color: #F2583E;*/
+	border-bottom: 2px solid #999;
 
 }
 
 #topnav a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
-	font-size: 13px;
-	/*background-color: #222;*/
-	/*background-color: #747E80; 2nd most recent*/
-	background-color: #006295;
+	font-size: 16px;
 	margin: 0;
-	padding: .2px 8px;
-	border-left: 4px solid #999;
+	padding: .5px 8px;
+	/*border-left: 4px solid #999;*/
+	
 }
 
 #topnav ul li a:hover {
-	color: #fff;
-	background-color: #6D98AB;
+	color: #000000;
+	background-color: #3BB9FF;
 
 }
 
 #content {
 		float: left;
-		width: 500px;
-		/*background: #303030;*/
+		width: 550px;
 		background: #F7F3E8;
-	    margin: 0 0 0 5em;
-		height: 475px;
+	    margin: 0 0 0 2em;
+		height: 700px;
 		padding-left: 10px;
+		border: 1px solid #000000;
 
 }
 
 h1, h2, h3, h4 {
-	color: #77BED2;
+	color: #3BB9FF;
 }
 
 
 
 #contentright {
 	float: right;
-	/*background: #303030;*/
 	background: #F7F3E8;
 	padding: .05em;
 	width: 150px;
 	margin: 0 3em 0 0;
 	height: 475px;
 	padding-left: 10px;
+	border: 1px solid #000000;
 	
 }
 
@@ -112,6 +107,7 @@ h1, h2, h3, h4 {
 #footer {
 	clear:both;
 	text-align: center;
+	border: 1px solid #000000;
 
 }
 
