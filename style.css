@@ -58,7 +58,8 @@
 	
 }
 
-p {
+#content.p {
 	font: arial, times;
+	margin-left: 250px;
 }
 
