@@ -49,7 +49,7 @@
 	margin-top: 30px;
 }
 
-#content h {
+h1, h2 {
 	font: arial, times;
 	margin-left: 200px;
 	margin-top: 50px;
