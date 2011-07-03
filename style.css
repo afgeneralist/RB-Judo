@@ -49,11 +49,18 @@
 	margin-top: 30px;
 }
 
-h1, h2 {
+h1 {
 	font: arial, times;
 	margin-left: 200px;
 	margin-top: 50px;
 
+}
+
+h2, h3 {
+	font: arial, times;
+	margin-left: 200px;
+	margin-top: 25px;
+	font-size: 14px;
 }
 
 
